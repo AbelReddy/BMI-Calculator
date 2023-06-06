@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="experiment.css" />
+
+  <link rel="stylesheet" href="" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>BMI Calculator</h1>
+  <form id="form">
+    <div class="data">
+      <h2>Your Height :</h2>
+      <input type="text" name="" id="height" placeholder="Enter your height" />
+    </div>
+    <div class="data">
+      <h2>Your Weight :</h2>
+      <input type="text" value="" id="weight" placeholder="Enter your weight" />
+    </div>
+    <div class="final">
+      <h1>Your BMI is :</h1>
+      <div>
+        <p class="answer"></p>
+      </div>
+    </div>
+    <br />
+    <button type="submit" onclick="clear()">Clear</button>
+  </form>
+  <button type="submit" onclick="height()">Enter</button>
+</body>
+<script src="index.js"></script>
+
+</html>
